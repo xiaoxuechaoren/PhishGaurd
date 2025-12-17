@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "URL钓鱼检测助手(自动版2)",
+  "version": "1.0",
+  "description": "网页加载时自动检测URL风险并显示结果。",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webNavigation", 
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "http://localhost:5001/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background/background.js" 
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"], 
+      "js": ["content/content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src http://localhost:5000/ http://localhost:5001/"
+    
+  }
+  
+}

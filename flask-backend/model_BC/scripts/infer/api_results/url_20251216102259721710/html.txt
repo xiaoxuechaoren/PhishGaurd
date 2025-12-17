@@ -1,0 +1,380 @@
+<html dir="ltr"><head>
+    <title>厦门大学学生邮件系统</title>
+    <base href="https://stu.xmu.edu.cn/coremail/common/index_cmxt50.jsp">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    
+    <meta name="renderer" content="webkit|ie-stand">
+    <link rel="stylesheet" href="assets/6685bd17/css/iconfont/iconfont.css">
+    
+    <link rel="stylesheet" href="assets/index_cmxt50/css/custom.css?v=6685bd17">
+    <link rel="stylesheet" href="assets/index_cmxt50/css/custom.cdn.css?v=6685bd17">
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="assets/index_cmxt50/css/IE7-hack.css?v=6685bd17" />
+    <![endif]-->
+<style></style></head>
+<body class="windows chrome138">
+<div class="main-bottom" style="background-color: rgb(53, 152, 219); background-image: url(&quot;/coremail/s?func=lp:getImg&amp;org_id=&amp;img_id=background_001&quot;);"></div>
+<div class="main-middle"></div>
+<div class="main">
+    <div class="content"><div>
+       <a href="http://www.xmu.edu.cn" target="_blank" class="logo">
+               <img src="/coremail/s?func=lp:getImg&amp;org_id=&amp;img_id=logo_001" alt="Coremail 电子邮件系统">
+           </a>    </div>
+    <div>
+        <label class="slogan" style="color: rgb(255, 255, 255); font-size: 16px;">第一次登录邮箱前请访问https://i2.xmu.edu.cn进行密码重置，更多问题请访问页面右上角帮助。注意：严禁在本互联网非涉密平台传输、处理国家秘密，请确认扫描上传、处理的文件资料不涉及国家秘密</label>
+    </div>
+    <div class="hotline">
+        <span>服务电话 : 2183508</span>
+    </div>
+    <div class="copyright">
+        <a href="http://inc.xmu.edu.cn" target="_blank">
+            厦门大学信息与网络中心
+        </a>
+    </div></div>
+    <div class="aside-blur"></div>
+    <div class="aside-blur2 transparent"></div>
+    <div class="aside"><div class="weather">
+        <div class="f-fr">
+            <a href="https://i2.xmu.edu.cn" target="_blank">修改密码 Reset password |</a>
+            <a href="https://inc.xmu.edu.cn/info/1201/1651.htm" target="_blank">帮助 Help</a>
+        </div>
+    </div>
+    <div class="loginArea normalForm">
+        <div class="loginLang">
+            <div class="f-fr">
+                <span>Language:</span>
+                <span class="locale">
+                    
+                    <ul class="u-menu">
+                        
+                            <li data-locale="zh_CN"><a>简体中文</a></li>
+                        
+                            <li data-locale="zh_TW"><a>繁體中文</a></li>
+                        
+                            <li data-locale="en_US"><a>English</a></li>
+                        
+                    </ul>
+                    
+                    <span>简体中文</span>
+                    <i class="iconfont icondown"></i>
+                </span>
+            </div>
+        </div>
+        
+        <div class="loginType loginTypeSingle">
+            <a href="javascript:void(0)" logintype="normalForm">邮箱账号登录</a>
+            
+            
+        </div>
+        <div class="content-wrapper">
+            <span class="arrow"></span>
+            
+            <div class="formLogin">
+                
+
+                <div class="second-auth-wrap j-second-auth-wrap f-dn">
+                <div class="second-auth-login-title"><i class="iconfont iconleft auth-back j-auth-back"></i><a href="javascript:void(0)">二次验证</a></div>
+                    <div class="auth-body j-auth-body"></div>
+                </div>
+
+                <form action="/coremail/index.jsp?cus=1&amp;sid=BASzagTTMgvbHeKYBABOkAhijrZTNIiY" method="post" class="j-login-form u-form">
+                    <input type="hidden" name="locale" id="locale" value="zh_CN"> 
+                    <input type="hidden" name="nodetect" value="false">
+                    <input type="hidden" name="destURL" value=""> <!-- 通过参数请求参数，支持登录成功后跳转到指定页面 -->
+                    <input type="hidden" name="supportLoginDevice" value="true">
+                    <input type="hidden" name="accessToken" class="j-access-token" value="">
+                    <input type="hidden" name="timestamp" class="j-timestamp" value="">
+                    <input type="hidden" name="signature" class="j-signature" value="">
+                    <input type="hidden" name="nonce" class="j-nonce" value="">
+                    <input type="hidden" name="device" class="j-device" value="">
+                    <input type="hidden" name="supportDynamicPwd" value="true">
+                    <input type="hidden" name="supportBind2FA" value="true">
+                    <input type="hidden" name="authorizeDevice" class="j-authorizeDevice">
+                    <input type="hidden" name="loginType" value="">
+                    <input type="hidden" name="lookupCallback" value="">
+                    <div class="inputArea">
+                        <div class="common-area">
+                            
+                            <div class="u-form-item u-form-item-1 forUid">
+                                <div class="wrapper">
+                                    <label class="label actived"><i class="iconfont iconhead"></i></label>
+                                    <div class="input-wrapper">
+                                        <div class="sub-input-wrapper">
+                                            
+                                            <input class="u-input" type="text" name="uid" autocomplete="off" id="uid" tabindex="1" placeholder="用户名" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            
+
+                            
+                            <div class="u-form-item u-form-item-1 forPassword">
+                                <div class="wrapper">
+                                    <label class="label"><i class="iconfont iconlock"></i></label>
+                                    <div class="input-wrapper">
+                                        <div class="sub-input-wrapper">
+                                            
+                                            
+                                                
+                                                    <input type="hidden" name="password" id="password">
+                                                    <input class="u-input" type="password" autocomplete="off" placeholder="密　码" tabindex="2" id="fakePassword">
+                                                
+                                                
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="u-form-item u-form-item-1 forMobile mobile-area">
+                            <div class="wrapper">
+                                <label class="label"><i class="iconfont iconmobile"></i></label>
+                                <div class="input-wrapper">
+                                    <div class="sub-input-wrapper">
+                                        
+                                        <input class="u-input j-cell-number" type="text" name="smsaddr" autocomplete="off" tabindex="1" placeholder="手机号码" value="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="u-form-item u-form-item-1 securityCode f-dn">
+                            <div class="wrapper">
+                                <label class="label"><i class="iconfont iconverification"></i></label>
+                                <div class="input-wrapper">
+                                    <div class="sub-input-wrapper">
+                                        
+                                        <input class="u-input" name="verifyCode" placeholder="验证码" maxlength="4" autocomplete="off" tabindex="3">
+                                    </div>
+                                </div>
+                                
+                                
+                                <img src="" alt="验证码">
+                                <label class="label refresh"><i class="iconfont iconrevocation" title="换一张"></i></label>
+                            </div>
+                        </div>
+
+                        <div class="u-form-item u-form-item-1 forCode mobile-area">
+                            <div class="wrapper">
+                                <label class="label"><i class="iconfont iconlock"></i></label>
+                                <div class="input-wrapper">
+                                    <div class="sub-input-wrapper">
+                                        
+                                        <input class="u-input j-verify-cell-code" type="text" name="verifyCellCode" placeholder="短信验证码" maxlength="4" autocomplete="off" tabindex="3" value="">
+                                    </div>
+                                    <div class="arrow-wrapper mobile-angle f-dn">
+                                        <div class="code-arrow"><span></span></div>
+                                        <div class="code-txt">
+                                            <span class="hint">(验证码 5 分钟内有效)</span>
+                                            <a href="javascript:void(0)" data-operation="closeTip"><i class="iconfont icontabclose"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="send-code j-send-code" data-operation="sendCode">发送验证码</button>
+                            </div>
+                        </div>
+
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <div class="u-form-item u-form-item-2">
+                        
+                            <div class="cbWrapper f-fl j-saveUsername">
+                                <label><input type="checkbox" id="saveUsername" class="rc-hidden"><i class="checkbox"></i>记住用户名</label>
+                            </div>
+                        
+
+                        
+                        
+
+
+                    </div>
+                    <div class="u-form-item u-form-item-2">
+                        <input type="hidden" name="action:login">
+                        <button class="u-btn u-btn-primary submit j-submit" type="button" style="background-color: rgb(53, 152, 219); color: rgb(255, 255, 255);">
+                            登录
+                        </button>
+                    </div>
+                    
+                    
+                        
+                        
+                        
+                            
+                        
+                    
+                    <div class="u-form-item u-form-item-2 f-dn" id="warnOrErrDiv">
+                        <label></label>
+                    </div>
+                    
+                    <div class="u-form-item u-form-item-2">
+                        
+                        
+                            
+                            
+                        
+
+                        
+                        
+                        
+                    </div>
+                    <div class="j-external-login"></div>
+                </form>
+            </div>
+
+            
+
+            <div class="ssl-login">
+                <div class="login-container">
+                    <p class="login-desc">您正在使用证书登录, 请确保电脑已安装了证书或正在使用UKEY</p>
+                    <button class="u-btn u-btn-primary login-button j-ssl-login-button">CA证书登录</button>
+                </div>
+            </div>
+        </div>
+    </div></div>
+    
+    <div class="seo-link">
+        <a href="http://www.coremail.cn/" target="_blank">邮件系统</a>
+        <a href="http://www.coremail.cn/" target="_blank">邮件服务器</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+    
+    CUSTOME_DATA = {"ts":1750037901000,"indexPageData2": {
+'temp_resource':{
+'facade_custom':{
+'logo':['logo_000'],
+'logo_link':'http://www.xmu.edu.cn',
+'background':['background_000'],
+'favor':[],
+'favor_title':'厦门大学学生邮件系统',
+'default_lang':'zh_CN',
+'background_color':'rgb(53, 152, 219)',
+'submit_button_color':'#3598db',
+'submit_button_font_color':'rgb(255, 255, 255)',
+'copyright_link':'http://inc.xmu.edu.cn',
+'copyright_text':'厦门大学信息与网络中心',
+'slogan_color':'rgb(255, 255, 255)',
+'slogan_text':'第一次登录邮箱前请访问https://i2.xmu.edu.cn进行密码重置，更多问题请访问页面右上角帮助。注意：严禁在本互联网非涉密平台传输、处理国家秘密，请确认扫描上传、处理的文件资料不涉及国家秘密',
+'slogan_fontsize':'16'},
+'detail_custom':{
+'iac_enable':false,
+'iac':[],
+'iac_text':'修改密码',
+'iac_link':'http://i2.xmu.edu.cn',
+'top_link':[{
+'top_link_href':'https://i2.xmu.edu.cn',
+'top_link_content':'修改密码 Reset password |'},
+{
+'top_link_content':'帮助 Help',
+'top_link_href':'https://inc.xmu.edu.cn/info/1201/1651.htm'}],
+'telephone':[{
+'telephone_content':'服务电话',
+'telephone_num':'2183508'}],
+'business_info':[{
+'info_href':'',
+'info_content':''}]}},
+'real_resource':{
+'facade_custom':{
+'logo':['logo_001'],
+'logo_link':'http://www.xmu.edu.cn',
+'background':['background_001'],
+'favor':[],
+'favor_title':'厦门大学学生邮件系统',
+'default_lang':'zh_CN',
+'background_color':'rgb(53, 152, 219)',
+'submit_button_color':'#3598db',
+'submit_button_font_color':'rgb(255, 255, 255)',
+'copyright_link':'http://inc.xmu.edu.cn',
+'copyright_text':'厦门大学信息与网络中心',
+'slogan_color':'rgb(255, 255, 255)',
+'slogan_text':'第一次登录邮箱前请访问https://i2.xmu.edu.cn进行密码重置，更多问题请访问页面右上角帮助。注意：严禁在本互联网非涉密平台传输、处理国家秘密，请确认扫描上传、处理的文件资料不涉及国家秘密',
+'slogan_fontsize':'16'},
+'detail_custom':{
+'iac_enable':false,
+'iac':[],
+'iac_text':'修改密码',
+'iac_link':'http://i2.xmu.edu.cn',
+'top_link':[{
+'top_link_href':'https://i2.xmu.edu.cn',
+'top_link_content':'修改密码 Reset password |'},
+{
+'top_link_content':'帮助 Help',
+'top_link_href':'https://inc.xmu.edu.cn/info/1201/1651.htm'}],
+'telephone':[{
+'telephone_content':'服务电话',
+'telephone_num':'2183508'}],
+'business_info':[{
+'info_href':'',
+'info_content':''}]}},
+'style_used':'0'}};
+    SYS_CONST = {
+        templates: {
+'logoTpl':'<a href="{{#if facade_custom.logo_link}}{{facade_custom.logo_link}}{{^}}http://www.coremail.cn{{/if}}" target="_blank" class="logo">\n        <img src="{{customLpImg facade_custom.logo \'assets/index_cmxt50/img/logo.png\'}}" alt="Coremail 电子邮件系统">\n    </a>',
+'contentTpl':'<div>\n       {{> logoTpl}}\n    </div>\n    {{#if facade_custom.slogan_text}}\n    <div>\n        <label class="slogan">{{facade_custom.slogan_text}}</label>\n    </div>\n    {{/if}}\n    {{#unless facade_custom.background}}\n    <div class="version">\n        \n        <img src="/coremail//common/assets/index_cmxt50/img/cmXT6/slogan.png" class="slogan-img" alt="slogan" />\n    </div>\n    {{/unless}}\n    {{#if detail_custom.telephone}}\n    <div class="hotline">\n        {{#each detail_custom.telephone}}\n        <span>{{telephone_content}} : {{telephone_num}}</span>\n        {{/each}}\n    </div>\n    {{/if}}\n    <div class="copyright">\n        {{#if facade_custom.copyright_link}}\n        <a href="{{facade_custom.copyright_link}}" target="_blank">\n            {{#if facade_custom.copyright_text}}\n            {{{facade_custom.copyright_text}}}\n            {{^}}\n            Coremail. &copy; Copyright 2000 - 2024 Mailtech.\n            {{/if}}\n        </a>\n        {{^}}\n        <label>\n            {{#if facade_custom.copyright_text}}\n            {{{facade_custom.copyright_text}}}\n            {{^}}\n            Coremail. &copy; Copyright 2000 - 2024 Mailtech.\n            {{/if}}\n        </label>\n        {{/if}}\n    </div>',
+'asideTpl':'<div class="weather">\n        {{#if detail_custom.top_link}}\n        <div class="f-fr">\n            {{#each detail_custom.top_link}}\n            <a href="{{top_link_href}}" target="_blank">{{top_link_content}}</a>\n            {{/each}}\n        </div>\n        {{^}}\n        <div class="f-fr">\n            \n            \n            <i class="iconfont iconheart favourite" title="收藏本页" data-msg="请按 Ctrl+D 收藏本页"></i>\n            <a href="/coremail/help/index_zh_CN.jsp" target="_blank" title="帮助"><i class="iconfont iconhelp question"></i></a>\n        </div>\n        {{/if}}\n    </div>\n    <div class="loginArea normalForm">\n        <div class=loginLang>\n            <div class=f-fr>\n                <span>Language:</span>\n                <span class=locale>\n                    \n                    <ul class=u-menu>\n                        \n                            <li data-locale="zh_CN"><a>简体中文</a></li>\n                        \n                            <li data-locale="zh_TW"><a>繁體中文</a></li>\n                        \n                            <li data-locale="en_US"><a>English</a></li>\n                        \n                    </ul>\n                    \n                    <span>简体中文</span>\n                    <i class="iconfont icondown"></i>\n                </span>\n            </div>\n        </div>\n        \n        <div class="loginType loginTypeSingle">\n            <a href="javascript:void(0)" logintype="normalForm">邮箱账号登录</a>\n            \n            \n        </div>\n        <div class="content-wrapper">\n            <span class="arrow"></span>\n            \n            <div class="formLogin">\n                \n\n                <div class="second-auth-wrap j-second-auth-wrap f-dn">\n                <div class=second-auth-login-title><i class="iconfont iconleft auth-back j-auth-back"></i><a href="javascript:void(0)">二次验证</a></div>\n                    <div class="auth-body j-auth-body"></div>\n                </div>\n\n                <form action="/coremail/index.jsp?cus=1&sid=BASzagTTMgvbHeKYBABOkAhijrZTNIiY" method="post" class="j-login-form u-form">\n                    <input type="hidden" name="locale" id="locale" value="zh_CN" /> \n                    <input type="hidden" name="nodetect" value="false"/>\n                    <input type="hidden" name="destURL" value=""/> <!-- 通过参数请求参数，支持登录成功后跳转到指定页面 -->\n                    <input type="hidden" name="supportLoginDevice" value="true" />\n                    <input type="hidden" name="accessToken" class="j-access-token" value="" />\n                    <input type="hidden" name="timestamp" class="j-timestamp" value="" />\n                    <input type="hidden" name="signature" class="j-signature" value="" />\n                    <input type="hidden" name="nonce" class="j-nonce" value="" />\n                    <input type="hidden" name="device" class="j-device" value="" />\n                    <input type="hidden" name="supportDynamicPwd" value="true" />\n                    <input type="hidden" name="supportBind2FA" value="true" />\n                    <input type="hidden" name="authorizeDevice" class="j-authorizeDevice"/>\n                    <input type="hidden" name="loginType" value="" />\n                    <input type="hidden" name="lookupCallback" value="" />\n                    <div class="inputArea">\n                        <div class="common-area">\n                            \n                            <div class="u-form-item u-form-item-1 forUid">\n                                <div class="wrapper">\n                                    <label class="label"><i class="iconfont iconhead"></i></label>\n                                    <div class="input-wrapper">\n                                        <div class="sub-input-wrapper">\n                                            \n                                            <input class="u-input" type="text" name="uid" autocomplete="off" id="uid" tabindex="1" placeholder="用户名" value=""/>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n\n                            \n                            \n\n                            \n                            <div class="u-form-item u-form-item-1 forPassword">\n                                <div class="wrapper">\n                                    <label class="label"><i class="iconfont iconlock"></i></label>\n                                    <div class="input-wrapper">\n                                        <div class="sub-input-wrapper">\n                                            \n                                            \n                                                \n                                                    <input type="hidden" name="password" id="password"/>\n                                                    <input class="u-input" type="password" autocomplete="off" placeholder="密　码" tabindex="2"\n                                                           id="fakePassword" />\n                                                \n                                                \n                                            \n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class="u-form-item u-form-item-1 forMobile mobile-area">\n                            <div class="wrapper">\n                                <label class="label"><i class="iconfont iconmobile"></i></label>\n                                <div class="input-wrapper">\n                                    <div class="sub-input-wrapper">\n                                        \n                                        <input class="u-input j-cell-number" type="text" name="smsaddr" autocomplete="off" tabindex="1" placeholder="手机号码" value=""/>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        \n                        <div class="u-form-item u-form-item-1 securityCode f-dn">\n                            <div class="wrapper">\n                                <label class="label"><i class="iconfont iconverification"></i></label>\n                                <div class="input-wrapper">\n                                    <div class="sub-input-wrapper">\n                                        \n                                        <input class=u-input name=verifyCode placeholder="验证码" maxlength="4" autocomplete=off tabindex=3>\n                                    </div>\n                                </div>\n                                \n                                \n                                <img src="" alt="验证码"/>\n                                <label class="label refresh"><i class="iconfont iconrevocation" title="换一张"></i></label>\n                            </div>\n                        </div>\n\n                        <div class="u-form-item u-form-item-1 forCode mobile-area">\n                            <div class="wrapper">\n                                <label class="label"><i class="iconfont iconlock"></i></label>\n                                <div class="input-wrapper">\n                                    <div class="sub-input-wrapper">\n                                        \n                                        <input class="u-input j-verify-cell-code" type="text" name="verifyCellCode" placeholder="短信验证码"\n                                               maxlength="4" autocomplete="off" tabindex="3" value=""/>\n                                    </div>\n                                    <div class="arrow-wrapper mobile-angle f-dn">\n                                        <div class="code-arrow"><span></span></div>\n                                        <div class="code-txt">\n                                            <span class="hint">(验证码 5 分钟内有效)</span>\n                                            <a href="javascript:void(0)" data-operation="closeTip"><i class="iconfont icontabclose"></i></a>\n                                        </div>\n                                    </div>\n                                </div>\n                                <button type="button" class="send-code j-send-code" data-operation="sendCode">发送验证码</button>\n                            </div>\n                        </div>\n\n                        \n                        \n                        \n                        \n                    </div>\n\n                    <div class="u-form-item u-form-item-2">\n                        \n                            <div class="cbWrapper f-fl j-saveUsername">\n                                <label><input type="checkbox" id="saveUsername" />记住用户名</label>\n                            </div>\n                        \n\n                        \n                        \r\n\r\n\n                    </div>\n                    <div class="u-form-item u-form-item-2">\n                        <input type="hidden" name="action:login" />\n                        <button class="u-btn u-btn-primary submit j-submit" type="button">\n                            登录\n                        </button>\n                    </div>\n                    \n                    \n                        \n                        \n                        \n                            \n                        \n                    \n                    <div class="u-form-item u-form-item-2 f-dn" id="warnOrErrDiv">\n                        <label></label>\n                    </div>\n                    \n                    <div class="u-form-item u-form-item-2">\n                        \n                        \n                            \n                            \n                        \n\n                        \n                        \n                        \n                    </div>\n                    <div class=j-external-login></div>\n                    {{#if detail_custom.iac_enable}}\n                    <div class="u-form-item u-form-item-3">\n                        {{#if detail_custom.iac}}\n                        <div class="QRCode">\n                            <img src="{{customLpImg detail_custom.iac}}"/>\n                        </div>\n                        {{/if}}\n                        {{#with detail_custom.iac_text}}\n                        <div class=CSLink>\n                            {{#with ../detail_custom.iac_link}}\n                            <a href="{{.}}" target=_blank>{{..}}</a>\n                            {{^}}\n                            <label>{{.}}</label>\n                            {{/with}}\n                        </div>\n                        {{/with}}\n                    </div>\n                    {{/if}}\n                </form>\n            </div>\n\n            \n\n            <div class="ssl-login">\n                <div class="login-container">\n                    <p class="login-desc">您正在使用证书登录, 请确保电脑已安装了证书或正在使用UKEY</p>\n                    <button class="u-btn u-btn-primary login-button j-ssl-login-button">CA证书登录</button>\n                </div>\n            </div>\n        </div>\n    </div>'},
+        primaryDomain: "stu.xmu.edu.cn",
+        focusEleName: "uid",
+        empty_error: null,
+        error_other: null,
+        secondAuthMeta: {
+            config: "any",
+            needToAuth: false
+        },
+        imgCDN: false,
+        
+        enableSpeedTest: false,
+        loginResultCode: null
+    };
+</script>
+<link rel="stylesheet" type="text/css" href="/coremail/bundle/L.02721.css">
+<script type="text/javascript" src="/coremail/bundle/polyfill.02721.js"></script>
+<script type="text/javascript">
+var $, _, X = {$: 'login', v: '6685bd17', L: 'zh_CN', s: 'BASzagTTMgvbHeKYBABOkAhijrZTNIiY', r: '/coremail', p: '/coremail/bundle/', C: Object.assign({user: {}, mail: {}, contact: {pab: {}, oab: {}}, setting: {}}, {
+'context':{
+'helpurl':'/coremail/help/index_zh_CN.jsp',
+'workspaceLoaded':null},
+'user':{
+'enablePushNotify':true,
+'onlineHost':'https://stu.xmu.edu.cn',
+'onlineTryCount':3},
+'setting':{
+'smsSendFreq':60,
+'authCodeSendFreq':60,
+'emailSendFreq':60,
+'otpPwdLength':6,
+'dynamicCodeLength':6,
+'authCodeLength':4,
+'smsCodeLength':4,
+'emailCodeLength':4,
+'tempSessionTime':300,
+'authDeviceKeep':true,
+'deviceKeep':2592000000,
+'encKeyQ':'04cb2a720be7e352ce215579dcf12ac6a57e457dfaa96d4c2e5ba765966b78b3831466c6dafd866a746fc3857c91cd9bffc26cbb52ab7ec17a70cdaa928aa2e1e1',
+'rejectConsistentPwd':true,
+'appName':'Coremail 论客 App',
+'extLogin':null},
+'addon':{
+'sidAuthMode':0}}), n: 'blue', k: function (skin) { return X.p + 'X.blue.02721.css'.replace('blue', skin) }};
+X.K = X.p + 'KE.02721.css';
+</script>
+<script type="text/javascript" src="/coremail/i18n/XT?1,zh_CN"></script>
+<script type="text/javascript" src="/coremail/bundle/$.02721.js"></script>
+
+</body></html>

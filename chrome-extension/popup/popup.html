@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 350px;
+      padding: 15px;
+      font-family: sans-serif;
+    }
+    #urlInput {
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+    #scanButton {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #scanButton:disabled {
+      background-color: #ccc;
+    }
+    #resultArea {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f8f9fa;
+    }
+    .risk-high {
+      color: #dc3545;
+      font-weight: bold;
+    }
+    .risk-low {
+      color: #28a745;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h3>URL钓鱼检测</h3>
+  <input type="text" id="urlInput" placeholder="输入或粘贴URL...">
+  <button id="scanButton">开始检测</button>
+  <div id="resultArea"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
